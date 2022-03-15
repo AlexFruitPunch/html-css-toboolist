@@ -18,5 +18,21 @@ header{
     height: 100px; 
 }
 
+/* TODO:tentativo di centrare tutto il testo*/
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#sfondo {
+    background-color: grey;
+}
+
+#task{
+    color: white;
+    border-style: solid;
+    border-width: 2px 4px;
+    border-color: blue;
+    border-radius: 25%;
+}
 
