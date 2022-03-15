@@ -32,24 +32,26 @@ header{
 
 /*riquadro per il tasto task*/
 #task{
+    font-size: 12px;
     color: white;
     background-color: rgb(4, 184, 255);
     border-style: none;
     border-width: 1px 1px;
     border-radius: 8px;
-    padding: 6px 10px 6px 10px;
+    padding: 8px 10px 8px 10px;
     margin: 1px;
 }
 
 /*riquadro per il tasto section*/
 #add-section{
+    font-size: 12px;
     color: gray;
     background-color: white;
     border-style: solid;
     border-width: 1px 1px;
     border-color: gray;
     border-radius: 8px;
-    padding: 6px 10px 6px 10px;
+    padding: 8px 10px 8px 10px;
     margin: 1px;
 }
 
@@ -64,6 +66,7 @@ header{
 
 /*cerchio di spunta*/
 .cerchio-verde{
+    margin-right: 5px;
     font-size: 10px;
     color: rgb(7, 207, 7);
     border-width: 1px 1px;
@@ -75,6 +78,7 @@ header{
 
 /*cerchio con x*/
 .cerchio-rosso{
+    margin-right: 5px;
     font-size: 10px;
     color:red;
     border-width: 1px 1px;
@@ -89,9 +93,9 @@ header{
     display: inline-block;
     width: 0;
 	height: 0;
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	border-top: 10px solid black;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 5px solid black;
 }
 
 /*ridimensionamento dei titoli delle varie sezioni*/
