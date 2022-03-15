@@ -163,3 +163,7 @@ header{
 
 /*fine dei vari riquadri con contorno colorato*/
 
+/*lista senza ne simboli ne numeri*/
+.lista-no-simboli{
+    list-style: none;
+}
