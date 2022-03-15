@@ -6,6 +6,7 @@
  #logo-size {
     width: 100px;
     height: 100px;
+    vertical-align: middle;
 }
 
 /*ridimensionamento titolo toboolist*/
@@ -14,11 +15,9 @@
     vertical-align: middle;
 }
 
-#container{
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    vertical-align: middle;
+/*altezza header per accentramento verticale*/
+header{
+    height: 100px; 
 }
 
 
