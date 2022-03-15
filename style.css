@@ -19,20 +19,40 @@ header{
 }
 
 /* TODO:tentativo di centrare tutto il testo*/
-main {
-    margin-left: auto;
-    margin-right: auto;
+.centratura {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #sfondo {
-    background-color: grey;
+    background-color: lightgray;
 }
 
+/*riquadro per il tasto task*/
 #task{
     color: white;
-    border-style: solid;
-    border-width: 2px 4px;
-    border-color: blue;
-    border-radius: 25%;
+    background-color: rgb(4, 184, 255);
+    border-style: none;
+    border-width: 1px 1px;
+    border-radius: 8%;
+    padding: 10px 10px 10px 10px
 }
 
+/*riquadro per il tasto section*/
+#section{
+    color: gray;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px 1px;
+    border-color: gray;
+    border-radius: 8%;
+    padding: 10px 10px 10px 10px ;
+}
+
+.riquadro{
+    border-style: none;
+    border-width: 1px 1px;
+    background-color: white;
+    border-radius: 1%;
+    padding: 20px 20px 20px 20px;
+}
