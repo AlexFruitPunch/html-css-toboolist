@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+/*ridimensionamento del logo*/
+ #logo-size {
+    width: 100px;
+    height: 100px;
+}
+
+/*ridimensionamento titolo toboolist*/
+#toboolist-size{
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+#container{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+
+
