@@ -18,12 +18,14 @@ header{
     height: 60px; 
 }
 
-/* TODO:tentativo di centrare tutto il testo*/
+/*centra testo e varie funzionalià al di sotto del titolo*/
 .centratura {
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/*colore di sfondo*/
 #sfondo {
     background-color: lightgray;
 }
@@ -96,4 +98,68 @@ header{
 .sezioni{
     font-size: 25px;
 }
+
+/*inizio dei vari riquadri con contorno colorato*/
+
+.tasto-azzurro{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(4, 184, 255);
+    border-style: none;
+    border-width: 1px 1px;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+}
+
+.tasto-viola{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(122, 43, 224);
+    border-style: none;
+    border-width: 1px 1px;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+}
+
+.tasto-verde{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(56, 141, 84);
+    border-style: none;
+    border-width: 1px 1px;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+}
+
+.tasto-arancio{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(226, 129, 19);
+    border-style: none;
+    border-width: 1px 1px;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+}
+
+.tasto-fucsia{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(218, 88, 223);
+    border-style: none;
+    border-width: 1px 1px;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+}
+
+.tasto-lime{
+    font-size: 12px;
+    color: white;
+    background-color: rgb(140, 200, 27);
+    border-style: none;
+    border-width: 1px 1px;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+}
+
+/*fine dei vari riquadri con contorno colorato*/
 
