@@ -27,7 +27,7 @@ header{
 
 /*colore di sfondo*/
 #sfondo {
-    background-color: lightgray;
+    background-color: rgb(231, 230, 230);
 }
 
 /*riquadro per il tasto task*/
@@ -42,7 +42,7 @@ header{
 }
 
 /*riquadro per il tasto section*/
-#section{
+#add-section{
     color: gray;
     background-color: white;
     border-style: solid;
@@ -59,7 +59,7 @@ header{
     border-width: 1px 1px;
     background-color: white;
     border-radius: 1%;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 60px;
 }
 
 /*cerchio di spunta*/
